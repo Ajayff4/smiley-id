@@ -1,0 +1,17 @@
+{
+  "name": "smiley-id",
+  "version": "1.0.0",
+  "description": "Unique id and OTP generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unique-id",
+    "nanoid",
+    "uuid"
+  ],
+  "type": "module",
+  "author": "Ajay Agrawal",
+  "license": "ISC"
+}
