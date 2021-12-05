@@ -1,14 +1,15 @@
 {
   "name": "smiley-id",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unique id and OTP generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/owner/project#readme",
   "repository": {
     "type": "git",
-    "url": "\u0016https://github.com/Ajayff4/smiley-id"
+    "url": "https://github.com/Ajayff4/smiley-id.git"
   },
   "keywords": [
     "smiley-id",
