@@ -1,4 +1,4 @@
-import { constants } from "./constants/constants.js";
+const constants = require("./constants/constants.js");
 
 const uniqueGenerator = (format, len=21) => {
   let uniqueString='';
@@ -68,7 +68,7 @@ const validator = (uniqueString, type='') => {
  * @param {number} [len] - The length of output.
  * @returns {string} - The otp of desired length.
  */
-export const otp = (len=6) => {
+const otp = (len=6) => {
   try {
     if (isNaN(parseInt(len))) return Error("Invalid length.")
     if (len > 15) return Error("Too big to handle");
@@ -142,7 +142,7 @@ const smileyId = (format, len) => {
   }
 }
 
-export default {
+module.exports = {
   smileyId,
   otp,
   nanoid,

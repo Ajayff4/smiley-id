@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/Ajayff4/smiley-id"
+  },
   "keywords": [
+    "smiley-id",
     "unique-id",
     "nanoid",
     "uuid"
   ],
-  "type": "module",
+  "type": "commonjs",
   "author": "Ajay Agrawal",
   "license": "ISC"
 }
